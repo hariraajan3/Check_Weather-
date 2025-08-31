@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherForm{
+    margin: 15px;
+}
+.weatherForm input{
+    font-size: 1.5rem;
+}
+.weatherForm button{
+    font-size: 1.3rem;
+    margin-left: 5px;
+    color: white;
+    background-color: lightgreen;
+    border: none;
+    padding: 6px 15px ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card{
+    box-shadow: 2px 2px 5px rgba(023, 01, 43, 0.5) ;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(90deg , rgba(0, 174, 255, 0.602) ,rgba(255, 95, 175, 0.911));
+    margin: 25px;
+   
+}
+p{
+    margin: 10px 0;
+}
+.cityDisplay ,.tempDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.815);
+}
+.errorDisplay{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.815);
+    padding-bottom: 10px;
+}
+.emojiDisplay{
+   font-size: 3rem;
+   color: yellow;
+   margin: 0;
+}
+.humidityDisplay {
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: rgba(0, 0, 0, 0.815);
+}
+.weatherDisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.815);
+}
