@@ -17,7 +17,7 @@ weatherForm.addEventListener("submit",async event=>{
      }
    }
    else{
-    displayError("Please enter a city")
+    card.style.display = "none";
    }
 })
 

@@ -20,9 +20,9 @@ body{
     border-radius: 5px;
 }
 .card{
+    display:none;
     box-shadow: 2px 2px 5px rgba(023, 01, 43, 0.5) ;
     padding: 50px;
-    display: flex;
     flex-direction: column;
     text-align: center;
     background: linear-gradient(90deg , rgba(0, 174, 255, 0.602) ,rgba(255, 95, 175, 0.911));
